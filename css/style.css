@@ -1,0 +1,57 @@
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+	color: white;
+	border: 3px solid white;
+	border-radius: 50px;
+	background: #33d6ff;
+	box-shadow: 3px 3px 10px #333333;
+}
+
+body {
+	background: #ff33cc;
+	font-family: 'Fugaz One', cursive;
+}
+
+.row {
+  padding: 20px;  
+}
+
+button {
+	color: white;
+	background: #ff33cc;
+	border-radius: 5px;
+	font-family: Helvetica, sans-serif;
+	margin-top: 10px;
+}
+
+.tempbox {
+	margin: 0 auto;
+	width: 350px;
+	border: 3px solid white;
+	border-radius: 50px;
+	background: #33d6ff;
+	color: white;
+	box-shadow: 3px 3px 10px #333333;
+}
+
+#farbox {
+	margin-top: 20px;
+}
+
+#celbox {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#inputFtoC, #inputCtoF {
+	font-family: Helvetica, sans-serif;
+}
+
+#complete {
+	text-align: center;
+}
