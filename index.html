@@ -4,16 +4,30 @@
     <title>Temperature Converter</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
   </head>
   <body>
-    <div class="row">
-      <input type="text" id="inputFtoC"> &deg;F = <span id="solutionFtoC">__&deg;C</span><br>
-      <button id="convertFtoC">Convert</button>
+    <header class="container">
+      <h1>RuPaul's Drag Temperature Converter</h1>
+    </header>
+
+    <div id="farbox" class="tempbox">
+      <div class="row">
+        <input type="text" id="inputFtoC"> &deg;F = <span id="solutionFtoC">__&deg;C</span><br>
+        <button id="convertFtoC">Convert</button>
+      </div>
     </div>
-    <div class="row">
-      <input type="text" id="inputCtoF"> &deg;C = <span id="solutionCtoF">__&deg;F</span><br>
-      <button id="convertCtoF">Convert</button>
+
+    <div id="celbox" class="tempbox">
+      <div class="row">
+        <input type="text" id="inputCtoF"> &deg;C = <span id="solutionCtoF">__&deg;F</span><br>
+        <button id="convertCtoF">Convert</button>
+      </div>
     </div>
+    <div id="complete">
+    
+    </div>
+
     <script type="text/javascript" src="js/project.js"></script>
   </body>
 </html>
